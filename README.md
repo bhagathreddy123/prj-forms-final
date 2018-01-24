@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 https://console.firebase.google.com
 
 create project on firebase and create a database inside rules give read write true  then publish for giving full permissions to all. 
+
+
+resolved the issue Property 'map' does not exist on type 'Observable<Response> by adding 
+import 'rxjs/Rx';
