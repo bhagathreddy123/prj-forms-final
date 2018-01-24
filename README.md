@@ -34,3 +34,9 @@ create project on firebase and create a database inside rules give read write tr
 
 resolved the issue Property 'map' does not exist on type 'Observable<Response> by adding 
 import 'rxjs/Rx';
+
+
+generating signup and signin components in cmd prompt
+
+ng g c auth/signup --spec false
+ng g c auth/signin --spec false
