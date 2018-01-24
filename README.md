@@ -40,3 +40,12 @@ generating signup and signin components in cmd prompt
 
 ng g c auth/signup --spec false
 ng g c auth/signin --spec false
+
+setting up firebase SDK
+
+first enable Email/password  provider in Authentication section.
+
+
+then run below command in cmd prompt
+
+npm install --save firebase
