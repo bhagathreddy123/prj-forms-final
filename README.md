@@ -49,3 +49,13 @@ first enable Email/password  provider in Authentication section.
 then run below command in cmd prompt
 
 npm install --save firebase
+
+
+for giving access for login we need to set up like below in firebase database console inside project
+
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
